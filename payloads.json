@@ -1,5 +1,16 @@
 [
   {
+    "name": "PS5-Lapy-JB-Daemon",
+    "filename": "PS5-Lapy-JB-Daemon_v1.2.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/PS5-Lapy-JB-Daemon_v1.2.elf",
+    "source": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases",
+    "source_direct": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases/download/v1.2/lapy_jb_daemon-v1.2.elf",
+    "description": "Standalone homebrew jailbreak daemon for PS5. Mimics etaHEN's jailbreak-on-demand API.",
+    "last_update": "2026-06-01",
+    "version": "v1.2",
+    "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e"
+  },
+  {
     "name": "ShadowMountPlus",
     "filename": "ShadowMountPlus_1.6test13.elf",
     "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.6test13.elf",
