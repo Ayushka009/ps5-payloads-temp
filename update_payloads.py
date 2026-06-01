@@ -282,16 +282,16 @@ def update_payloads():
             new_date = release["published_at"][:10]
             is_zip = original_filename.endswith(".zip")
             
-            # Format: repo_name_version.ext
+            proposed_name = repo_name
+            final_name = item.get("name", proposed_name)
+            
+            # Format: final_name_version.ext
             if is_zip:
                 ext = "elf"
             else:
                 ext = original_filename.rsplit('.', 1)[1] if '.' in original_filename else "bin"
             
-            new_filename = f"{repo_name}_{new_version}.{ext}"
-            
-            proposed_name = repo_name
-            final_name = item.get("name", proposed_name)
+            new_filename = f"{final_name}_{new_version}.{ext}"
             
             filepath = os.path.join(PAYLOADS_DIR, new_filename)
             needs_download = (
