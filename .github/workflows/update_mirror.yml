@@ -1,4 +1,4 @@
-name: Automated Payloads Mirror
+name: Automated Payloads 
 
 on:
   schedule:
